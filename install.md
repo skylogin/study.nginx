@@ -19,12 +19,14 @@
 
 
 # 구성
-```--prefix=설치될경로
-```--conf-path=conf파일위치
+```
+--prefix=설치될경로
+--conf-path=conf파일위치
 --error-log-path=에어로그위치
 --http-log-path=엑세스로그위치
 --user=유저명
---group=그룹명```
+--group=그룹명
+```
 
 ### SSL모듈 활성화
 ```--with-http_ssl_module```
