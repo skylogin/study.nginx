@@ -47,6 +47,7 @@ sudo apt-get install libperl-dev
 ### 인증모듈
 ```--with-http_auth_request_module```
 
+<hr/>
 
 # 예제
 ./configure --prefix=/DATA2/nginx-1.19.10 --user=www-data --group=www-data --with-http_ssl_module --with-http_realip_module
