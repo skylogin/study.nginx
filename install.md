@@ -19,12 +19,12 @@
 
 
 # 구성
-```--prefix=설치될경로```
-```--conf-path=conf파일위치```
-```--error-log-path=에어로그위치```
-```--http-log-path=엑세스로그위치```
-```--user=유저명```
-```--group=그룹명```
+```--prefix=설치될경로
+```--conf-path=conf파일위치
+--error-log-path=에어로그위치
+--http-log-path=엑세스로그위치
+--user=유저명
+--group=그룹명```
 
 ### SSL모듈 활성화
 ```--with-http_ssl_module```
@@ -48,10 +48,10 @@
 <hr/>
 
 # 예제
-./configure --prefix=/DATA2/nginx-1.19.10 --user=www-data --group=www-data --with-http_ssl_module --with-http_realip_module
+```./configure --prefix=/DATA2/nginx-1.19.10 --user=www-data --group=www-data --with-http_ssl_module --with-http_realip_module```
 
 # 전체예제
-./configure --prefix=/DATA2/nginx-1.19.10 --user=www-data --group=www-data --with-http_ssl_module --with-http_realip_module --with-http_addition_module --with-http_xslt_module --with-http_image_filter_module --with-http_geoip_module --with-http_sub_module --with-http_dav_module --with-http_flv_module --with-http_mp4_module --with-http_gzip_static_module --with-http_random_index_module --with-http_secure_link_module --with-http_stub_status_module --with-http_perl_module --with-http_degradation_module --with-http_gunzip_module --with-http_auth_request_module --with-http_v2_module
+```./configure --prefix=/DATA2/nginx-1.19.10 --user=www-data --group=www-data --with-http_ssl_module --with-http_realip_module --with-http_addition_module --with-http_xslt_module --with-http_image_filter_module --with-http_geoip_module --with-http_sub_module --with-http_dav_module --with-http_flv_module --with-http_mp4_module --with-http_gzip_static_module --with-http_random_index_module --with-http_secure_link_module --with-http_stub_status_module --with-http_perl_module --with-http_degradation_module --with-http_gunzip_module --with-http_auth_request_module --with-http_v2_module```
 
 # 메일관련
-./configure --prefix=/DATA2/nginx-1.19.10 --user=www-data --group=www-data --with-mail --with-mail_ssl_module
+```./configure --prefix=/DATA2/nginx-1.19.10 --user=www-data --group=www-data --with-mail --with-mail_ssl_module```
