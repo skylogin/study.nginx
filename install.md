@@ -14,9 +14,7 @@
 ```sudo apt-get install openssl libssl-dev```
 
 ### geoip, 이미지필터, xslt 등
-```sudo apt-get install libgeoip-dev libgd-dev libxslt-dev libxml2
-
-sudo apt-get install libperl-dev
+```sudo apt-get install libgeoip-dev libgd-dev libxslt-dev libxml2```
 
 
 
