@@ -45,7 +45,7 @@ sudo apt-get install libperl-dev
 ### gunzip 모듈
 ```--with-http_gunzip_module```
 ### 인증모듈
-```--with-http_auth_request_module
+```--with-http_auth_request_module```
 
 
 # 예제
