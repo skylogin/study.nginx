@@ -57,3 +57,11 @@
 
 # 메일관련
 ```./configure --prefix=/DATA2/nginx-1.19.10 --user=www-data --group=www-data --with-mail --with-mail_ssl_module```
+
+
+# 무중단 업그레이드
+* 기존 실행파일(sbin/nginx)를 새것으로 교체
+* ps -ef | grep nginx 등으로 master 프로세스의 pid를 확인
+* kill -USR2 [pid] 명령으로 USR2(12) 신호를 master 프로세스에 전달 
+* kill -WINCH [pid] 명령으로 WINCH(28) 신호를 master 프로세스에 전달 (이때 기존 작업들이 종료된 프로세스들이 점차 종료됨)
+* 모든 worker 프로세스들이 종료되면 kill -QUIT [pid] 명령으로 QUIT 신호를 master 프로세스에 전달
